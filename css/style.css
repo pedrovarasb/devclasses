@@ -752,16 +752,13 @@ button:hover span:nth-child(4) {
     color: black;
     text-align: justify;
     padding: 0px 150px 0px 150px;
-}
-
-.parrafo-articulo-class-arrow li::marker{
-    content: "➡️";
-}
-
-.parrafo-articulo-class-arrow{
+    margin: 0px 0px 0px 80px;
     list-style: none;
 }
 
+.parrafo-articulo-class-arrow li::marker{
+    content: "➡️  ";
+}
 /*Cierre article términos*/
 
 
