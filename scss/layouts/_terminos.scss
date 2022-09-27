@@ -1,0 +1,64 @@
+/*--TÉRMINOS Y CONDICIONES--*/
+
+/*hero términos*/
+.titulo-terminos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/Terminos.jpg);
+    background-size: 100%;
+    background-position: 0px -20px;
+    height: 650px;
+}
+
+.titulo-terminos img{
+    padding-bottom: 30px;
+}
+
+.p1-hero-terminos{
+    font-size: 50px;
+    font-family:"Axiforma bold";
+    color: white;
+    text-align: center;
+    width: 65%;
+    line-height: 65px;
+}
+
+.p2-hero-terminos{
+    font-size: 20px;
+    font-family: "Avenir next regular";
+    color: white;
+    padding-top: 30px;
+}
+
+/*Cierre hero términos*/
+
+
+/*article términos*/
+
+.parrafo-subt-articulo-class{
+    font-size: 20px;
+    font-family: "Axiforma bold";
+    color: black;
+    text-align: justify;
+    padding: 40px 150px 40px 150px;
+}
+
+.parrafo-articulo-class-arrow{
+    font-size: 20px;
+    font-family: "Avenir next regular";
+    color: black;
+    text-align: justify;
+    padding: 0px 150px 0px 150px;
+    margin: 0px 0px 0px 80px;
+    list-style: none;
+}
+
+.parrafo-articulo-class-arrow li::marker{
+    content: "➡️  ";
+}
+/*Cierre article términos*/
+
+
+/*--CIERRE TÉRMINOS Y CONDICIONES--*/

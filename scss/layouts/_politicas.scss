@@ -1,0 +1,35 @@
+/*--POLITICA--*/
+
+/*hero politica*/
+.titulo-politica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/Politica.jpg);
+    background-size: 100%;
+    background-position: 0px -20px;
+    height: 650px;
+}
+
+.titulo-politica img{
+    padding-bottom: 30px;
+}
+
+.p1-hero-politica{
+    font-size: 50px;
+    font-family:"Axiforma bold";
+    color: white;
+    text-align: center;
+    width: 65%;
+    line-height: 65px;
+}
+
+.p2-hero-politica{
+    font-size: 20px;
+    font-family: "Avenir next regular";
+    color: white;
+    padding-top: 30px;
+}
+
+/*Cierre article politica*/

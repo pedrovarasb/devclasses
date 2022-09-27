@@ -1,0 +1,89 @@
+/*--MANIFIESTO--*/
+
+/*hero manifiesto*/
+.titulo-manifiesto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/Manifiesto-v2.jpg);
+    background-size: 100%;
+    background-position: 0px -90px;
+    height: 650px;
+}
+
+.titulo-manifiesto img{
+    padding-bottom: 30px;
+}
+
+.p1-hero-manifiesto{
+    font-size: 50px;
+    font-family:"Axiforma bold";
+    color: white;
+    text-align: center;
+    width: 65%;
+    line-height: 65px;
+}
+
+.p2-hero-manifiesto{
+    font-size: 20px;
+    font-family: "Avenir next regular";
+    color: white;
+    padding-top: 30px;
+}
+
+/*Cierre hero manifiesto*/
+
+/*article*/
+
+.p-article{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.titulo-articulo-class{
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family:"Axiforma bold";
+    padding: 80px 150px 40px 150px;
+}
+
+.parrafo-articulo-class{
+    font-size: 20px;
+    font-family: "Avenir next regular";
+    color: black;
+    text-align: justify;
+    padding: 0px 150px 0px 150px;
+}
+/*cierre-article*/
+
+/*foto-nombre-pedro*/
+.autor{
+    padding: 80px 150px 10px 150px;
+}
+
+.autor img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.autor-nombre{
+    font-size: 20px;
+    font-family:"Axiforma regular";
+    color: black;
+    list-style: none;
+}
+
+.autor-cargo{
+    font-size: 20px;
+    font-family:"Axiforma bold";
+    color: black;
+    list-style: none;
+}
+/*cierre-foto-nombre-pedro*/
+
+
+/*--CIERRE MANIFIESTO--*/
