@@ -1,0 +1,30 @@
+.impulsados{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 450px;
+    
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+
+        li{
+            padding: 60px 10px 60px 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 50px;
+        }
+    }
+
+    p{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family:"Axiforma bold";
+        margin: 0px auto 30px auto;
+        padding: 90px 0px 40px 0px;
+    }
+}

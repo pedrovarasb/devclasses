@@ -1,0 +1,73 @@
+.footer{
+    display: flex;
+}
+
+.footer-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 116, 255, 0.5);
+    width: 60%;
+    height: 400px;
+}
+
+.footer-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    ul{
+        li{
+            a{
+                padding: 0px 25px 25px 0px;
+                display: flex;
+                justify-content: left;
+                width: 120px;
+            }
+        }
+    }
+}
+
+.footer-logo{
+    padding: 5px 10px;
+    margin: 0 10px;
+    width: 200px;
+}
+
+.footer-descripcion{
+    font-weight: normal;
+    font-size: 20px;
+    font-family: "Avenir next bold";
+    color: white;
+    text-align: left;
+    padding: 20px 25px;
+    margin: 0 10px;
+    width: 85%;
+}
+
+.footer-tit{
+    font-size: 50px;
+    font-family:"Axiforma bold";
+    color: black;
+    text-align: left;
+    padding: 20px 25px 0px 25px;
+    margin: 0 10px;
+}
+
+.footer-subt{
+    font-weight: bold;
+    font-size: 25px;
+    font-family:h"Axiforma regular";
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding: 0px 25px 25px 25px;
+    margin: 0 10px;
+}
+
+.footer-rrss{
+    background-color: white;
+    list-style: none;
+    display: flex;
+    list-style-type: none;
+    grid-area: footer-rrss;
+}

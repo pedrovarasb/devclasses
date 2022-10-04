@@ -1,6 +1,3 @@
-/*--POLITICA--*/
-
-/*hero politica*/
 .titulo-politica{
     display: flex;
     flex-direction: column;
@@ -10,10 +7,10 @@
     background-size: 100%;
     background-position: 0px -20px;
     height: 650px;
-}
 
-.titulo-politica img{
-    padding-bottom: 30px;
+    img{
+        padding-bottom: 30px;
+    }
 }
 
 .p1-hero-politica{
@@ -31,5 +28,3 @@
     color: white;
     padding-top: 30px;
 }
-
-/*Cierre article politica*/

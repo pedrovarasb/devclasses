@@ -1,6 +1,3 @@
-/*--INDEX--*/
-
-/*hero index*/
 .hero {
     display: flex;
     flex-wrap: wrap;
@@ -15,10 +12,19 @@
     "hero-ul imagen-combo-hero"
     "cta-hero-div imagen-combo-hero"
     "login-class imagen-combo-hero";
+
+    p{
+        font-size: 20px;
+        font-family: "Avenir next regular";
+        color: black;
+        text-align: left; 
+        padding: 5px 25px;
+        margin: 0 10px;
+        width: 75%;
+    }
 }
 
 .logo-hero{
-    
     padding: 25px 25px;
     margin: 5px 10px 35px 10px;
     grid-area: logo-hero;
@@ -42,16 +48,6 @@ h1{
     width: 75%;
     grid-area: h1;  
 }
-
-.hero p{
-    font-size: 20px;
-    font-family: "Avenir next regular";
-    color: black;
-    text-align: left; 
-    padding: 5px 25px;
-    margin: 0 10px;
-    width: 75%;
-}  
 
 .cta-hero-div{
     justify-content: left;
@@ -109,12 +105,6 @@ h1{
     grid-area: login-class;
 }
 
-/*Cierre hero index*/
-
-/*Cierre hero index*/
-
-
-/*cómo funciona*/
 #como-funciona{
     display: flex;
     flex-wrap: wrap;
@@ -122,28 +112,30 @@ h1{
     padding: 90px 0px 90px 0px
 }
 
-.como-funciona-class table tr th{
-    font-size: 40px;
-    font-family:"Axiforma bold";
-    color: black;
-    text-align: left;
-    padding: 25px 25px;
-    margin: 35px 10px;
-    line-height: 45px
+.como-funciona-class{
+    table{
+        tr{
+            th{
+                font-size: 40px;
+                font-family:"Axiforma bold";
+                color: black;
+                text-align: left;
+                padding: 25px 25px;
+                margin: 35px 10px;
+                line-height: 45px
+            }
+            td{
+                font-size: 20px;
+                font-family: "Axiforma regular";
+                color: black;
+                text-align: left; 
+                padding: 15px 25px;
+                margin: 35px 10px;
+            }
+        }
+    }
 }
 
-.como-funciona-class table tr td{
-    font-size: 20px;
-    font-family: "Axiforma regular";
-    color: black;
-    text-align: left; 
-    padding: 15px 25px;
-    margin: 35px 10px;
-}
-/*Cierre cómo funciona*/
-
-
-/*cómo se verá*/
 .como-se-vera{
     padding: 90px 0px 90px 0px
 }
@@ -162,47 +154,41 @@ h1{
     display: flex;
     justify-content: center;
     padding: 80px 0px;
-}
 
-.vista-combo img{
-    width: 1100px;
+    img{
+        width: 1100px;
+    }
 }
 
 .vista-mobile{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    div{
+        width: 90%;
+        height: 800px;
+        background-color:#fafafa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        font-size: 80px;
+        font-family: "Avenir next bold";
+        color: black;
+        text-align: left;
+        line-height: 80px;
+        margin-left: 50px;
+        width: 60%;
+    }
+    img{
+        max-width: 100%;
+        background-color: #fafafa;
+        margin-right: 50px;
+    }
 }
 
-.vista-mobile div{
-    width: 90%;
-    height: 800px;
-    background-color:#fafafa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.vista-mobile p{
-    font-size: 80px;
-    font-family: "Avenir next bold";
-    color: black;
-    text-align: left;
-    line-height: 80px;
-    margin-left: 50px;
-    width: 60%;
-}
-
-.vista-mobile img{
-    max-width: 100%;
-    background-color: #fafafa;
-    margin-right: 50px;
-}
-
-/*Cierre cómo se verá*/
-
-
-/*prueba Gret*/
 .prueba-gret{
     padding: 90px 0px 90px 0px;
     display: flex;
@@ -248,9 +234,9 @@ h1{
     max-width: 800px;
     font-size: 25px;
     font-weight: 900;
-    }
+}
     
-    @keyframes pulse {
+    @keyframes pulse{
     0% {
         transform: scale(.99);
         box-shadow: 0 0 0 0 rgba(0, 0, 0, .7);
@@ -263,11 +249,9 @@ h1{
         transform: scale(.99);
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
-    }
-/*Cierre prueba Gret*/
+}
 
 
-/*prueba social*/
 .prueba-social{
     padding: 60px 0px 60px 0px;
 }
@@ -286,24 +270,26 @@ h1{
     margin: 40px auto 150px auto;
     width: 70%;
     height: 50px;
-}
 
-.testimonios tr td{
-    font-size: 20px;
-    font-family: "Avenir next regular";
-    color: black;
-    text-align: center;
-    padding: 120px 35px 20px 35px;
-    margin: 0px auto 0px auto;
-}
+    tr{
+        td{
+            font-size: 20px;
+            font-family: "Avenir next regular";
+            color: black;
+            text-align: center;
+            padding: 120px 35px 20px 35px;
+            margin: 0px auto 0px auto;
+        }
+        th{
+            font-size: 20px;
+            font-family: "Avenir next bold";
+            color: black;
+            text-align: center;
+            padding: 0px 35px 0px 35px;
+            margin: 0px auto 0px auto;
+        }
 
-.testimonios tr th{
-    font-size: 20px;
-    font-family: "Avenir next bold";
-    color: black;
-    text-align: center;
-    padding: 0px 35px 0px 35px;
-    margin: 0px auto 0px auto;
+    }
 }
 
 .prueba-social-div1{
@@ -311,11 +297,11 @@ h1{
     justify-content: center;
     padding: 35px 0px;
     width: auto;
-}
 
-.prueba-social-div1 img{
-    width: 240px;
-    padding: 0px 25px;
+    img{
+        width: 240px;
+        padding: 0px 25px;
+    }
 }
 
 .prueba-social-div2{
@@ -323,11 +309,11 @@ h1{
     justify-content: center;
     padding: 35px 0px;
     width: auto;
-}
 
-.prueba-social-div2 img{
-    width: 240px;
-    padding: 0px 25px;
+    img{
+        width: 240px;
+        padding: 0px 25px;
+    }
 }
 
 .prueba-social-div3{
@@ -335,241 +321,9 @@ h1{
     justify-content: center;
     padding: 35px 0px;
     width: auto;
+
+    img{
+        width: 170px;
+        padding: 0px 25px;
+    }
 }
-
-.prueba-social-div3 img{
-    width: 170px;
-    padding: 0px 25px;
-}
-
-/*Cierre prueba social*/
-
-
-/*cta footer index*/
-.cta-footer{
-    padding: 90px 0px 0px 0px;
-}
-
-.cta-footer-divpadre{
-    display: flex;
-}
-
-.cta-footer-div1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color:#fafafa;
-    width: 1200px;
-}
-
-h4{
-    font-size: 36px;
-    font-family: "Axiforma bold";
-    color: black;
-    text-align: left;
-    padding: 50px 0px 0px 25px;
-    margin: 0px 10px 0px 10px;
-    line-height: 45px;
-    width: 90%;
-}
-
-.cta-footer-div2{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-
-/*Cierre cta footer index*/
-
-
-/*links footer index*/
-.links-footer{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 35px 35px;
-
-}
-
-.links-footer button{
-    font-size: 15px;
-    font-family:"Avenir next bold";
-    position: relative;
-    padding: 10px 15px;
-    border: none;
-    outline: none;
-    background: white;
-    cursor: pointer;
-    transition: .5s;
-    overflow: hidden;
-}
-
-.links-footer button a{
-    text-decoration: none;
-}
-
-button:hover {
-    color: black;
-}
-
-button span {
-    position: absolute;
-    background: black;
-    transition: .5s;
-}
-
-button span:nth-child(1) {
-    width: 100%;
-    height: 1px;
-    top: 0;
-    left: -100%;
-}
-
-button span:nth-child(2) {
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    right: -100%;
-}
-
-button span:nth-child(3) {
-    width: 1px;
-    height: 100%;
-    bottom: -100%;
-    left: 0;
-}
-
-button span:nth-child(4) {
-    width: 1px;
-    height: 100%;
-    top: -100%;
-    right: 0;
-}
-
-button:hover span:nth-child(1) {
-    left: 0;
-}
-
-button:hover span:nth-child(2) {
-    right: 0;
-}
-
-button:hover span:nth-child(3) {
-    bottom: 0;
-}
-
-button:hover span:nth-child(4) {
-    top: 0;
-}
-/*Cierre links footer index*/
-
-
-/*footer index*/
-.footer{
-    display: flex;
-}
-
-.footer-div1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(0, 116, 255, 0.5);
-    width: 60%;
-    height: 400px;
-}
-
-.footer-div2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.footer-logo{
-    padding: 5px 10px;
-    margin: 0 10px;
-    width: 200px;
-}
-
-.footer-descripcion{
-    font-weight: normal;
-    font-size: 20px;
-    font-family: "Avenir next bold";
-    color: white;
-    text-align: left;
-    padding: 20px 25px;
-    margin: 0 10px;
-    width: 85%;
-}
-
-.footer-tit{
-    font-size: 50px;
-    font-family:"Axiforma bold";
-    color: black;
-    text-align: left;
-    padding: 20px 25px 0px 25px;
-    margin: 0 10px;
-}
-
-.footer-subt{
-    font-weight: bold;
-    font-size: 25px;
-    font-family:h"Axiforma regular";
-    color: black;
-    background-color: white;
-    text-align: left;
-    padding: 0px 25px 25px 25px;
-    margin: 0 10px;
-}
-
-.footer-rrss{
-    background-color: white;
-    list-style: none;
-    display: flex;
-    list-style-type: none;
-    grid-area: footer-rrss;
-}
-
-.footer-div2 ul li a{
-    padding: 0px 25px 25px 0px;
-    display: flex;
-    justify-content: left;
-    width: 120px;
-}
-
-/*Cierre footer index*/
-
-
-/*impulsados index*/
-.impulsados{
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    height: 450px;
-}
-
-.impulsados p{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    font-family:"Axiforma bold";
-    margin: 0px auto 30px auto;
-    padding: 90px 0px 40px 0px;
-}
-
-.impulsados ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-}
-
-.impulsados ul li{
-    padding: 60px 10px 60px 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50px;
-}
-/*Cierre impulsados index*/
-
-/*--CIERRE INDEX--*/

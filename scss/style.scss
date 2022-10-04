@@ -1,8 +1,15 @@
-@import "./variables";
+@import "./bases/variables";
+@import "./bases/_listas.scss";
+@import "./bases/maps";
 @import "./layouts/index";
 @import "./layouts/manifiesto";
 @import "./layouts/planesyprecios";
 @import "./layouts/politicas";
 @import "./layouts/terminos";
+@import "./componentes/boton-cta";
+@import "./componentes/cta-footer";
+@import "./componentes/impulsados";
+@import "./componentes/leyenda-rrss";
+@import "./componentes/links-footer";
 
 

@@ -1,0 +1,32 @@
+.cta-footer{
+    padding: 90px 0px 0px 0px;
+}
+
+.cta-footer-divpadre{
+    display: flex;
+}
+
+.cta-footer-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#fafafa;
+    width: 1200px;
+}
+
+h4{
+    font-size: 36px;
+    font-family: "Axiforma bold";
+    color: black;
+    text-align: left;
+    padding: 50px 0px 0px 25px;
+    margin: 0px 10px 0px 10px;
+    line-height: 45px;
+    width: 90%;
+}
+
+.cta-footer-div2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
