@@ -1,3 +1,5 @@
+// Pricing: Escoge tu plan en Gret //
+
 let nombreCliente = prompt("Ingresa tu nombre");
 let apellidoCliente = prompt("Ingresa tu apellido");
 
@@ -34,3 +36,15 @@ if else {
 } else {
     alert("Error: Escribe 1, 2 o 3");
 }
+
+
+// Registro clientes creadores y clientes consumidores //
+function Cliente(nombre, contraseña, pais, como se entero de Gret) {
+    this.nombre = nombre:
+    this.apellido = apellido;
+    this.edad = edad;
+    this.pais = pais;
+    this.comoseentero = como se entero;
+}
+
+const cliente1 = new Cliente("Juan", "Franco", 40, "Colombia", "Instagram"); 
