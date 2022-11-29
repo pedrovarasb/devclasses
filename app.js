@@ -45,6 +45,30 @@ function Cliente(nombre, contraseña, pais, como se entero de Gret) {
     this.edad = edad;
     this.pais = pais;
     this.comoseentero = como se entero;
+    this.bienvenida = function(){alert("Hola" + this.nombre + "Comienza a crear tu espacio")}
 }
 
 const cliente1 = new Cliente("Juan", "Franco", 40, "Colombia", "Instagram"); 
+cliente1.bienvenida();
+
+
+let acumuladorDeNotas = 0;
+
+for(let contador = 0; contador < 5; contador++) {
+    let nota = parseFloat(prompt("Ingrese su nota"));
+
+    acumuladorDeNotas += nota;
+}
+
+let promedioDeNotas = acumuladorDeNotas / 5;
+alert ("El promedio de notas es: ${promedioDeNotas}")
+
+
+
+
+let acumulador = 0;
+do {
+    let numero = parseInt(prompt("Ingrese un número."))
+    acumulador =+ numero;
+    console.log(acumulador)
+}while(acumulador <= 10)
